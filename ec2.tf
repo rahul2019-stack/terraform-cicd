@@ -23,8 +23,8 @@ module "dba-vm1" {
   source = "./ec2-module"
 }
 
-module "dba-vm2" {
-  source   = "./ec2-module"
-  tag-name = "vm2-for-dba-team"
-}
+# module "dba-vm2" {
+#   source   = "./ec2-module"
+#   tag-name = "vm2-for-dba-team"
+# }
 
