@@ -5,7 +5,7 @@ on:
     branches:
       - master
 
-Jobs:
+jobs:
   terraform:
     runs-on: ubuntu-latest
 
